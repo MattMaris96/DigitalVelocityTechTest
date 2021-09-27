@@ -1,0 +1,353 @@
+#page-main-content{
+    padding: 0;
+
+    > #the-whey{
+        &.the-whey-desktop{
+           background: repeating-linear-gradient(#223b66, #171e36 69.9%, #fff 30.1%, #fff 100%); 
+        }
+
+        &.the-whey-mobile{
+            background-image: linear-gradient(to bottom, #223b66, #171e36);
+        }
+
+        // background-image: -webkit-linear-gradient(right, rgba(0,0,0,0) 0%, #223b66 100%), 
+        //     -webkit-linear-gradient(right, rgba(0,0,0,0) 0%, #fff 100%), 
+        //     -webkit-linear-gradient(top, #171e36 0%, #fff 100%);
+        > .info{
+            > h1{
+                margin: 0;
+                padding: 20% 0 0 35%;
+                color: #fff;
+                font-size: 25pt;
+
+                > span{
+                    color:#f7d32b;
+                }
+            }
+            > button{
+                width: 35%;
+                text-align: center;
+                background-color: #161d34;
+                font-size: 18pt;
+                margin: 10px 0 0 35%;
+                border-radius: 0.3rem;
+                color: #fff;
+                border:none;
+
+                &:hover{
+                    background-color: #f7d32b;
+                    color: #192643;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        > .info-mobile{
+            > h1{
+                margin: 0;
+                color: #fff;
+                font-size: 16pt;
+                text-align: center;
+
+                > span{
+                    color:#f7d32b;
+                }
+            }
+            > button{
+                width: 85%;
+                text-align: center;
+                background-color: #161d34;
+                font-size: 18pt;
+                margin: 10px 0 0 7.5%;
+                border-radius: 0.3rem;
+                color: #fff;
+                border:none;
+            }
+        }
+
+        > .image-container-mobile{
+            > img{
+                width: 100%;
+            }
+            
+        }
+    }
+
+    > #the-suppliment{
+        //background: repeating-linear-gradient(#fff 30.1%,#ef4041, #2a3c66 69.9%,  #fff 100%);
+        background-image: linear-gradient(115deg, #ef4041, #2a3c66);
+
+        > .info{
+            text-align: right;
+            > h1{
+                margin: 0;
+                padding: 20% 35% 0 0;
+                color: #fff;
+                font-size: 25pt;
+            }
+            > p{
+                margin: 0;
+                padding: 50px 35% 0 0;
+                color: #fff;
+            }
+            > button{
+                width: 45%;
+                text-align: center;
+                background-color: #fff;
+                font-size: 18pt;
+                margin: 10px 35% 0 0;
+                border-radius: 0.3rem;
+                color: #2a3c66;
+                border:none;
+
+                &:hover{
+                    background-color: #ef4041;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    > #the-whey, #the-suppliment, #the-range{
+        padding: 20px 10%;
+        overflow: auto;
+        
+
+        > .info, .image-container{
+            width: 50%;
+            float: left;
+        }
+        
+        > .image-container{
+            > img{
+                width: 90%;
+                float: left;
+            }
+        }
+    }
+
+    // .white-panel{
+    //     width: 100%;
+    //     height: 20px;
+    // }
+
+    > #the-serum{
+        > .grid-row-1{
+            overflow: auto;
+
+            > div, img{
+                width: 50%;
+            }
+
+            > img{
+                float: right;
+            }
+
+            > div{
+                float: left;
+                position: relative;
+
+                // > img, div {
+                //     width: 50%;
+                //     float: left;
+                // }
+                > img{
+                    float: right;
+                    margin-right: 40%;
+                    width: 35%;
+                }
+                > div {
+                    width: 40%;
+                    //float: left;
+                    position: absolute;
+                    top: calc(50% - 100px);
+                    right: 0;
+                }
+
+                > div{
+                    > img{
+                        width: 70%;
+                    }
+
+                    > h3, p{
+                        margin: 0;
+                        padding: 0;
+                        text-align: left;
+                    }
+
+                    > h3{
+                        font-size: 18pt;
+                    }
+
+                    > .flavour{
+                        font-size: 12pt;
+                    }
+
+                    > .price{
+                        font-size: 14pt;
+                    }
+
+                    > button{
+                        width: 60%;
+                        border-radius: 0.3rem;
+                        color: #fff;
+                        border: navajowhite;
+                        margin: 7px 0;
+                        padding: 10px 0;
+                        font-size: 12pt;
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+
+                    > .add-to-basket{
+                        background-color: #223c68;
+                        border: 1px solid #223c68;
+
+                        &:hover{
+                            border: 1px solid #f7d32b;
+                            color: #f7d32b;
+                        }
+                    }
+
+                    > .quick-buy{
+                        background-color: #f7d32b;
+                        border: 1px solid #f7d32b;
+
+                        &:hover{
+                            border: 1px solid #223c68;
+                            color: #223c68;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        > .grid-row-2{
+            overflow: auto;
+
+            > img{
+                width: 50%;
+                float: left;
+            }
+
+            > div{
+                width: 38%;
+                float: left;
+                padding: 5% 5% 0 7%;
+            }
+
+            > div{
+
+
+                > img {
+                    width: 38%;
+                    float: left;
+                    padding: 5% 5% 0 7%;
+                }
+
+                > h3, p{
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                }
+
+                > h3{
+                    font-size: 25pt;
+
+                    > span{
+                        color: #223c68;
+                    }
+                }
+
+                > button{
+                    width: 60%;
+                    border-radius: 0.3rem;
+                    color: #fff;
+                    background-color: #223c68;
+                    border: 1px solid #223c68;
+                    margin: 7px 0;
+                    padding: 10px 0;
+                    font-size: 12pt;
+
+                    &:hover{
+                        cursor: pointer;
+                        border: 1px solid #f7d32b;
+                        color: #f7d32b;
+                    }
+                }
+            }
+        }
+    }
+
+    > #the-range{
+        background-color: #1e3359;
+
+        > .info, .image-container{
+            padding: 5%;
+            width: 40%;
+        }
+
+        > .info{
+            > h1, p{
+                color: #fff;
+                padding: 0;
+                margin: 5px 0;
+            }
+            > h1{
+                font-size: 18pt;
+            }
+
+            > p{
+                font-size: 24pt;
+            }
+
+            > button{
+                width: 50%;
+                padding: 10px;
+                font-size: 18pt;
+                border-radius: 0.3rem;
+                background-color: #fff;
+                color: #1e3359;
+                border: none;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        > .image-container{
+            > img, .range-info{
+                width: 50%;
+                float: left;
+            }
+
+            > .range-info{
+                text-align: center;
+
+                > h3, .range-info-flavours, .range-info-price{
+                    margin: 5px 0 5px 0;
+                }
+
+                > h3{
+                    font-size: 18pt;
+                    color: #fff;
+                }
+
+                > .range-info-flavours{
+                    font-size: 12pt;
+                    color: #8d94a4;
+                }
+
+                > .range-info-price{
+                    font-size: 14pt;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

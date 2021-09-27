@@ -1,0 +1,12 @@
+dump
+
+node_modules
+
+public
+public/images
+
+README.txt
+
+*.env
+
+*.zip

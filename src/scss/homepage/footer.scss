@@ -1,0 +1,44 @@
+#page-footer{
+    background-color: #161d34;
+    position: relative;
+
+    > .footer-column{
+        width: calc(100% / 4);
+        color: #fff;
+        float: left;
+
+        > h2{
+            margin: 0;
+            font-size: 14pt;
+            width: 100%;
+        }
+
+        > a{
+            margin: 0;
+            padding: 7px 0px;
+            display: block;
+
+            &:hover{
+                color: #f7d32b;
+                cursor: pointer;
+            }
+        }
+
+        > p{
+            margin: 0;
+            padding: 7px;
+            float: left;
+
+            &:hover{
+                color: #f7d32b;
+                cursor: pointer;
+            }
+        }
+    }
+
+    > .footer-logo{
+        position: absolute;
+        bottom: 20px;
+        right: 10%;
+    }
+}

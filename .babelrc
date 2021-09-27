@@ -1,0 +1,17 @@
+{
+    "presets": [
+        // presets defined by babel which include multitude of features. 
+        // This project created in react.js therefore the react preset is required.
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+
+    // allows es6 modules and functions to be used in older browsers
+    "plugins": [
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-transform-async-to-generator",
+        "@babel/plugin-transform-template-literals",
+        "babel-plugin-transform-class-properties"
+    ]
+}

@@ -1,0 +1,21 @@
+@import "homepage/images.scss";
+@import "homepage/header.scss";
+@import "homepage/nav.scss";
+@import "homepage/homepage.scss";
+@import "homepage/footer.scss";
+
+@font-face {
+    font-family: 'customFontReg'; 
+    src: url("../Fonts/Font Awesome 5 Brands-Regular-400.otf") format("opentype");
+    font-style: normal;
+}
+
+body{
+    margin: auto;
+    font-family: customFontReg;
+}
+
+section{
+    padding: 20px 10%;
+    overflow: auto;
+}
