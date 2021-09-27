@@ -1,0 +1,7 @@
+After downloading or cloning repository run the following commands in a code editor terminal
+
+1. To install dependencies and modules run "npm i"
+2. To Build public folder with compiled code run "npm run build:prod"
+3. To complie scss into css run "npm run build-sass"
+4. To start local server and load UI run "http-server"
+5. Navigate to URL provided in terminal after server start up
